@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+  <diagram name="Class Diagram" id="class-diagram-treckingrec">
+    <mxGraphModel dx="744" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" value="&lt;b&gt;TreckingRec - Class Diagram&lt;/b&gt;&lt;br&gt;Flutter + Laravel Integration" vertex="1">
+          <mxGeometry height="40" width="400" x="600" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="flutter-box" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;" value=" FLUTTER FRONTEND" vertex="1">
+          <mxGeometry height="400" width="700" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="screens-box" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Screens" vertex="1">
+          <mxGeometry height="180" width="320" x="60" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="splash" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="SplashScreen" vertex="1">
+          <mxGeometry height="30" width="90" x="70" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="login" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="LoginScreen" vertex="1">
+          <mxGeometry height="30" width="90" x="170" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="home" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;" value="HomeScreen" vertex="1">
+          <mxGeometry height="30" width="100" x="270" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="addoutlet" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="AddOutletScreen" vertex="1">
+          <mxGeometry height="30" width="100" x="70" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="database" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="DatabaseScreen" vertex="1">
+          <mxGeometry height="30" width="100" x="180" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="checkin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="CheckInScreen" vertex="1">
+          <mxGeometry height="30" width="80" x="290" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="riwayat" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="RiwayatScreen" vertex="1">
+          <mxGeometry height="30" width="90" x="70" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="profile" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="ProfileScreen" vertex="1">
+          <mxGeometry height="30" width="90" x="170" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="settings" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="SettingsScreen" vertex="1">
+          <mxGeometry height="30" width="100" x="270" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="api-service" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;ApiService&lt;/b&gt;&lt;hr&gt;+ login()&lt;br&gt;+ logout()&lt;br&gt;+ getProfile()&lt;br&gt;+ getOutlets()&lt;br&gt;+ getMyOutlets()&lt;br&gt;+ createOutlet()&lt;br&gt;+ getAttendanceHistory()&lt;br&gt;+ getRegions()" vertex="1">
+          <mxGeometry height="160" width="150" x="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="lang-service" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;LanguageService&lt;/b&gt;&lt;hr&gt;+ setLanguage()&lt;br&gt;+ t() [translate]&lt;br&gt;- currentLocale" vertex="1">
+          <mxGeometry height="80" width="150" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="shared-pref" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;SharedPreferences&lt;/b&gt;&lt;hr&gt;Token Storage&lt;br&gt;User Data Cache" vertex="1">
+          <mxGeometry height="70" width="150" x="560" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="app-theme" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;AppTheme&lt;/b&gt;&lt;hr&gt;Colors, Gradients&lt;br&gt;UI Decorations" vertex="1">
+          <mxGeometry height="70" width="120" x="400" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="widgets" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;Widgets&lt;/b&gt;&lt;hr&gt;GlassCard&lt;br&gt;GradientButton" vertex="1">
+          <mxGeometry height="70" width="100" x="530" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="http-layer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=12;" value="&amp;nbsp;HTTP REST API&lt;br&gt;&lt;i&gt;http://127.0.0.1:8000/api&lt;/i&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="laravel-box" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fontSize=14;" value="LARAVEL BACKEND" vertex="1">
+          <mxGeometry height="380" width="700" x="40" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="controllers-box" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Controllers" vertex="1">
+          <mxGeometry height="130" width="320" x="60" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="auth-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AuthController" vertex="1">
+          <mxGeometry height="30" width="90" x="70" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="user-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UserController" vertex="1">
+          <mxGeometry height="30" width="90" x="170" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="outlet-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OutletController" vertex="1">
+          <mxGeometry height="30" width="100" x="270" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="useroutlet-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UserOutletController" vertex="1">
+          <mxGeometry height="30" width="120" x="70" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AttendanceController" vertex="1">
+          <mxGeometry height="30" width="120" x="200" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="region-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RegionController" vertex="1">
+          <mxGeometry height="30" width="100" x="70" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="category-ctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CategoryController" vertex="1">
+          <mxGeometry height="30" width="110" x="180" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="models-box" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Models (Eloquent)" vertex="1">
+          <mxGeometry height="160" width="320" x="400" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="user-model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;User&lt;/b&gt;&lt;br&gt;id, name, email, role" vertex="1">
+          <mxGeometry height="40" width="140" x="410" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="outlet-model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;Outlet&lt;/b&gt;&lt;br&gt;id, name, code, address" vertex="1">
+          <mxGeometry height="40" width="150" x="560" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="attendance-model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;Attendance&lt;/b&gt;&lt;br&gt;user_id, outlet_id, check_in/out" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="category-model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;Category&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="600" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="useroutlet-model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;UserOutlet&lt;/b&gt;&lt;br&gt;(pivot)" vertex="1">
+          <mxGeometry height="35" width="80" x="410" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="region-model" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;Region/Regency/District&lt;/b&gt;" vertex="1">
+          <mxGeometry height="35" width="160" x="500" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="mysql" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1;" value="&amp;nbsp;MySQL Database" vertex="1">
+          <mxGeometry height="60" width="140" x="240" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" edge="1" parent="1" source="api-service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" target="http-layer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" edge="1" parent="1" source="http-layer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="controllers-box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" edge="1" parent="1" source="controllers-box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" target="models-box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" edge="1" parent="1" source="models-box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" target="mysql">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" edge="1" parent="1" source="api-service" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#9673a6;dashed=1;" target="shared-pref">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel1" edge="1" parent="1" source="user-model" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#666666;dashed=1;fontSize=10;" target="attendance-model" value="hasMany">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel2" edge="1" parent="1" source="outlet-model" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;strokeColor=#666666;dashed=1;fontSize=10;" target="attendance-model" value="hasMany">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_n29Fj_Y70SRI1tAHyR-1" edge="1" parent="1" source="legend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="region-model" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;align=left;fontSize=11;" value="&lt;b&gt;Legend:&lt;/b&gt;&lt;br&gt;🔵 Flutter | 🟠 Laravel | 🟣 Database | 🔴 API" vertex="1">
+          <mxGeometry height="50" width="180" x="550" y="870" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
